@@ -1,0 +1,39 @@
+{
+  "name": "vitesse-black-win",
+  "displayName": "VitesseBlackWin",
+  "description": "VitesseBlackWin",
+  "version": "0.0.3",
+  "publisher": "chengxudong",
+  "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1b1f23",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hnxycxd"
+  },
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vitesse Black Win",
+        "uiTheme": "vs-dark",
+        "path": "./vitesse-black.json"
+      }
+    ]
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "rimraf *.vsix && vsce package"
+  }
+}
